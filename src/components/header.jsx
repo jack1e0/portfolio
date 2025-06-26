@@ -46,9 +46,8 @@ export default function Header() {
       <header
         onMouseEnter={() => setHover(true)}
         onMouseLeave={() => setHover(false)}
-        className={`z-50 fixed flex flex-row justify-end sm:justify-center items-center w-full h-16 px-10 ${
-          hover || sideBar ? "bg-lessTransWhite" : "bg-transWhite"
-        } backdrop-blur-sm shadow-md transition-all duration-300 ease-out`}
+        className={`z-50 fixed flex flex-row justify-end sm:justify-center items-center w-full h-16 px-10 ${hover || sideBar ? "bg-lessTransWhite" : "bg-transWhite"
+          } backdrop-blur-sm shadow-md transition-all duration-300 ease-out`}
       >
         <FaBars className="opacity-0" />
         <nav className="hidden sm:flex flex-row justify-center items-center gap-16">
@@ -82,9 +81,8 @@ export default function Header() {
         </nav>
         <div ref={buttonRef}>
           <FaBars
-            className={`sm:hidden cursor-pointer sm:curs text-gray ${
-              sideBar ? "rotate-90" : 0
-            } transition-transform duration-300 ease-in-out`}
+            className={`sm:hidden cursor-pointer sm:curs text-gray ${sideBar ? "rotate-90" : 0
+              } transition-transform duration-300 ease-in-out`}
             onClick={() => setSideBar(!sideBar)}
           />
         </div>
@@ -92,9 +90,8 @@ export default function Header() {
 
       <div
         ref={ref}
-        className={`${
-          sideBar ? "translate-x-0" : "translate-x-full"
-        } fixed right-0 top-16 h-screen w-1/2 bg-lessTransWhite backdrop-blur-sm flex flex-col gap-10 items-start p-10 shadow-md z-50 transition-transform duration-300 ease-in-out`}
+        className={`${sideBar ? "translate-x-0" : "translate-x-full"
+          } fixed right-0 top-16 h-screen w-1/2 bg-lessTransWhite backdrop-blur-sm flex flex-col gap-10 items-start p-10 shadow-md z-50 transition-transform duration-300 ease-in-out`}
       >
         <button className="headerNav" onClick={() => handleScroll("about")} end>
           ABOUT

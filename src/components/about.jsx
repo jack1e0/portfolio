@@ -26,7 +26,7 @@ export default function About() {
       <h1 className="w-72 bg-gradient-to-r from-pink to-yellow bg-clip-text inline-block text-transparent">
         About Me
       </h1>
-      <p className="text-justify flex-1 text-[14px]">
+      <p className="text-justify flex-1 text-[14px] md:text-[16px]">
         Hi, I’m Jackie — a Computer Science student at the National University
         of Singapore with a deep passion for building and creating. My journey
         began with a background in art and design, which evolved into a love for

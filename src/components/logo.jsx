@@ -29,9 +29,8 @@ export default function Logo({ i, title, url, small = true }) {
       className="relative flex items-center justify-center cursor-pointer w-max"
     >
       <p
-        className={`absolute mb-[54px] bottom-0 py-1 px-2 rounded-md w-max bg-transGray text-white ${
-          show ? "opacity-1" : "opacity-0"
-        } transition-opacity duration-100`}
+        className={`absolute mb-[54px] bottom-0 py-1 px-2 rounded-md w-max bg-transGray text-white ${show ? "opacity-1" : "opacity-0"
+          } transition-opacity duration-100`}
       >
         {title}
       </p>
@@ -46,9 +45,8 @@ export default function Logo({ i, title, url, small = true }) {
   ) : (
     <div className="relative flex items-center justify-center cursor-pointer w-max">
       <p
-        className={`absolute mb-10 bottom-0 py-1 px-2 rounded-md w-max bg-transGray text-white ${
-          show ? "opacity-1" : "opacity-0"
-        } transition-opacity duration-100`}
+        className={`absolute mb-10 bottom-0 py-1 px-2 rounded-md w-max bg-transGray text-white ${show ? "opacity-1" : "opacity-0"
+          } transition-opacity duration-100`}
       >
         {title}
       </p>

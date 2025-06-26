@@ -3,7 +3,7 @@ export const workList = [
     title: "Data Engineering/ Software Development Intern",
     company: { title: "Kisi", url: "kisi.png" },
     date: "Jan 2025 - Present",
-    desc: ["TBC"],
+    desc: "Built user interfaces and backend APIs, managed seamless data migrations, and streamlined workflows using Google Cloud Platform. Designed scalable data pipelines with Apache Beam for efficient analytics.",
     skills: [
       { title: "React", url: "react.png" },
       { title: "Google Cloud Platform", url: "gcp.png" },
@@ -16,11 +16,7 @@ export const workList = [
     title: "Software Engineer Intern",
     company: { title: "Geomotion", url: "geomotion.png" },
     date: "Jun 2024 - Nov 2024",
-    desc: [
-      "Led end-to-end development of company website and its administrative panel using the MERN stack (MongoDB, Express.js, React, Node.js)",
-      "Created a Retrieval-Augmented Generation (RAG) chatbot, trained on company documentation and extensive domain material, to provide intelligent, real-time support for website visitors",
-      "Developed a fully featured HR portal with a robust role-based authentication system, enabling secure creation, submission, and approval of employee timesheets",
-    ],
+    desc: "Developed the company website and admin panel using the MERN stack, created a RAG chatbot for intelligent support, and built a secure HR portal with role-based access and timesheet management.",
     skills: [
       { title: "React", url: "react.png" },
       { title: "Express", url: "express.png" },
@@ -36,11 +32,7 @@ export const workList = [
     title: "Computer Science Intern",
     company: { title: "MeetArts", url: "meetarts.png" },
     date: "Dec 2023 - May 2024",
-    desc: [
-      "Sole developer of the MeetArts Virtual Gallery, integrating it into the web platform in 2 months",
-      "Created media content for the gallery, including the guide and promotional video, using Canva and Da Vinci Resolve respectively",
-      "Engaged in cybersecurity initiatives and SEO improvement",
-    ],
+    desc: "Sole developer of a Unity-based virtual gallery, delivering an immersive digital art experience in 2 months. Produced media content using Canva and Da Vinci Resolve, and contributed to cybersecurity and analytics efforts via Cloudflare.",
     skills: [
       { title: "Magento", url: "magento.png" },
       { title: "Unity", url: "unity.png" },
@@ -54,11 +46,7 @@ export const workList = [
     title: "Software Engineer Intern",
     company: { title: "Floramis", url: "floramis.jpg" },
     date: "May 2023 - Aug 2023",
-    desc: [
-      "Designed and implemented new features of mobile app",
-      "Improved on existing functionalities",
-      "Assisted in designing aspects of game logic",
-    ],
+    desc: "Improved character design and user engagement by implementing new frontend features in a Unity mobile game. Supported backend development with Amazon DynamoDB and collaborated on core game logic.",
     skills: [
       { title: "Unity", url: "unity.png" },
       { title: "Blender", url: "blender.png" },
@@ -76,7 +64,6 @@ export const projectsList = [
     desc: "Started a digital shop to sell my paintings, amassing over 20k followers on Instagram. Also created a WordPress site for it.",
 
     skills: [{ title: "WordPress", url: "wp.png" }],
-    linkUrl: "https://tiny--painting.com/",
   },
   {
     title: "cATWORKs",

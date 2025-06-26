@@ -24,12 +24,12 @@ const Card = ({ title, company, date, desc, skills }) => {
   const [open, setOpen] = useState(false);
   return (
     <div
-      className="cursor-pointer w-full bg-beige  shadow-md rounded-lg overflow-hidden p-3 md:px-5 md:pr-10 mb-2  md:py-6 min-h-28 "
+      className="cursor-pointer w-full bg-beige shadow-md rounded-lg overflow-hidden p-3 md:px-5 md:pr-10 mb-2  py-6 min-h-28 "
       onClick={() => setOpen(!open)}
     >
       <div className="flex flex-row justify-between">
         <div className="flex flex-row gap-5">
-          <div className="max-h-10 max-w-10 md:max-h-20 md:max-w-20 h-full items-center flex justify-center">
+          <div className="h-16 w-16 md:h-20 md:w-20 items-center flex justify-center">
             <img
               src={company.url}
               alt="logo"
@@ -37,7 +37,7 @@ const Card = ({ title, company, date, desc, skills }) => {
             />
           </div>
           <div className="flex flex-col md:pt-3">
-            <p className="text-lg md:text-xl font-semibold">{title}</p>
+            <p className="sm:text-lg md:text-xl font-semibold">{title}</p>
             <div className="md:text-lg text-dark block md:flex flex-row gap-5">
               <p className="font-semibold">{company.title}</p>
               <p className=" italic">{date}</p>
@@ -46,21 +46,18 @@ const Card = ({ title, company, date, desc, skills }) => {
         </div>
 
         <FaAngleDown
-          className={`${
-            open ? "" : "-rotate-90"
-          } mt-8 transition-all duration-300 ease-in-out`}
+          className={`${open ? "" : "-rotate-90"
+            } mt-8 transition-all duration-300 ease-in-out`}
         />
       </div>
       {!open ? null : (
-        <div className="ml-3 sm:ml-12 md:ml-24">
-          <ul>
-            {desc.map((d) => (
-              <li>{d}</li>
-            ))}
-          </ul>
-          <div className="flex flex-row gap-2 mt-5">
-            {skills.map((skil, i) => (
-              <Logo title={skil.title} url={skil.url} />
+        <div className="ml-3 sm:ml-12 md:ml-24 pt-5">
+          <p className="text-[14px] md:text-[16px]">
+            {desc}
+          </p>
+          <div className="flex flex-wrap gap-2 mt-5">
+            {skills.map((skill, i) => (
+              <Logo i={i} title={skill.title} url={skill.url} />
             ))}
           </div>
         </div>
