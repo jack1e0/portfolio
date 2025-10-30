@@ -27,12 +27,15 @@ export default function About() {
         About Me
       </h1>
       <p className="text-justify flex-1 text-[14px] md:text-[16px]">
-        Hi, I’m Jackie — a Computer Science student at the National University
-        of Singapore with a deep passion for building and creating. My journey
-        began with a background in art and design, which evolved into a love for
-        technology. Today, I combine both worlds by designing and developing
-        products that are not only functional but also meaningful and enjoyable
-        for others.
+        With over a decade of formal art education, I am deeply passionate about
+        the intersection of art and technology. Today, I combine the best of
+        both worlds by designing and developing products that are not only
+        functional but also meaningful and enjoyable.
+        <br />
+        <br />
+        My forte lies in full-stack engineering, but am always eager to step
+        beyond my comfort zone, exploring new technology and industries to
+        broaden my perspectives.
         <br />
         <br />
         This year, I embarked on NUS Overseas College (NOC) in Stockholm, which

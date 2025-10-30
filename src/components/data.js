@@ -1,11 +1,12 @@
 export const workList = [
   {
-    title: "Data Engineering/ Software Development Intern",
+    title: "Software Development Intern",
     company: { title: "Kisi", url: "kisi.png" },
     date: "Jan 2025 - Present",
     desc: "Built user interfaces and backend APIs, managed seamless data migrations, and streamlined workflows using Google Cloud Platform. Designed scalable data pipelines with Apache Beam for efficient analytics.",
     skills: [
       { title: "React", url: "react.png" },
+      { title: "TypeScript", url: "typescript.png" },
       { title: "Google Cloud Platform", url: "gcp.png" },
       { title: "Apache Beam", url: "beam.png" },
       { title: "Astro", url: "astro.png" },
@@ -61,7 +62,7 @@ export const projectsList = [
     title: "Tiny Painting",
     imgurl: "tinypainting.png",
     date: "2022-2023",
-    desc: "Started a digital shop to sell my paintings, amassing over 20k followers on Instagram. Also created a WordPress site for it.",
+    desc: "Started a digital shop to sell my paintings, amassing over 20k followers on Instagram. Received commissions from customers and clients, including the National University of Singapore",
 
     skills: [{ title: "WordPress", url: "wp.png" }],
   },
@@ -107,10 +108,10 @@ export const projectsList = [
 
 export const skills = {
   languages: [
+    { title: "TypeScript", url: "typescript.png" },
     { title: "JavaScript", url: "js.png" },
     { title: "Python", url: "python.png" },
     { title: "Java", url: "java.png" },
-    { title: "C#", url: "csharp.png" },
   ],
   frameworks: [
     { title: "React", url: "react.png" },
@@ -122,6 +123,7 @@ export const skills = {
     { title: "CSS", url: "css.png" },
     { title: "Tailwind CSS", url: "tailwind.png" },
     { title: "Redux", url: "redux.png" },
+    { title: "Langchain", url: "langchain.webp" },
   ],
   platforms: [
     { title: "Google Cloud PLatform", url: "gcp.png" },
@@ -129,7 +131,6 @@ export const skills = {
     { title: "Unity", url: "unity.png" },
     { title: "AWS", url: "aws.png" },
     { title: "MongoDB", url: "mongodb.png" },
-    { title: "Langchain", url: "langchain.webp" },
     { title: "Ollama", url: "ollama.png" },
     { title: "WordPress", url: "wp.png" },
     { title: "Magento", url: "magento.png" },
