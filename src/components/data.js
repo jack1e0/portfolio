@@ -63,15 +63,14 @@ export const projectsList = [
     imgurl: "tinypainting.png",
     date: "2022-2023",
     desc: "Started a digital shop to sell my paintings, amassing over 20k followers on Instagram. Received commissions from customers and clients, including the National University of Singapore",
-
     skills: [{ title: "WordPress", url: "wp.png" }],
+    linkUrl: "https://www.instagram.com/tiny._.painting/?hl=en",
   },
   {
     title: "cATWORKs",
     imgurl: "catworks.png",
     date: "May-Aug 2023",
     desc: "Developed an educational study application in a team of two (as part of the NUS Orbital Programme), featuring an immersive virtual pet experience. Designed and created game sprites in-house.",
-
     skills: [
       { title: "Unity", url: "unity.png" },
       { title: "Blender", url: "blender.png" },
